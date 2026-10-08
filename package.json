@@ -1,0 +1,11 @@
+{
+  "name": "package-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Full-Stack Package Tracker with Minimoth OTP Authentication",
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend dev",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  }
+}
